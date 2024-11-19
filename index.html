@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let b=Math.random();
+        let a= Math.round(b*10);
+        
+
+        let adivina=prompt("adivina un numero entre el 0 y el 10");
+        if (adivina==a) {
+            document.write("adivinaste el numero, felicidades🎉")
+        }else{
+            document.write("vuelve a intentarlo😔", "<br>");
+        }
+
+        document.write(a); 
+    </script>
+</body>
+</html>
